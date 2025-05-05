@@ -2,7 +2,6 @@
 A customizable wheel-style picker built with RecyclerView that mimics the iOS date/time selector. Supports smooth animations, item highlighting, tick icons, and custom data types.
 
 ## ✨ Features
-
 <ul>
   <li>✅ Wheel-style vertical scroll picker</li>
   <li>✅ Center item snapping (<code>LinearSnapHelper</code>)</li>
