@@ -56,7 +56,8 @@ class WheelPickerAdapter(
 
         // Handle item click
         holder.itemView.setOnClickListener {
-            onItemClicked.invoke(position)
+            if (position == centerIndex)
+                onItemClicked.invoke(position)
         }
 
         // Determine target alpha and scale based on position
